@@ -1,0 +1,2 @@
+python3 preprocessing_for_qa_long_for_test.py ${1} ${2} ntuadl2023hw1/test_qa_long.json
+python3 test_3.py --model_name_or_path ./result_3 --do_predict --test_file ntuadl2023hw1/test_qa_long.json --max_seq_length 2048 --pad_to_max_length --csv_file ${3}
